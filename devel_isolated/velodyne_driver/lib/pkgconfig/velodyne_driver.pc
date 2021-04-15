@@ -1,0 +1,8 @@
+prefix=/home/gyc/match_ws/devel_isolated/velodyne_driver
+
+Name: velodyne_driver
+Description: Description of velodyne_driver
+Version: 1.6.1
+Cflags: -I/home/gyc/match_ws/devel_isolated/velodyne_driver/include -I/home/gyc/match_ws/src/tools/velodyne/velodyne_driver/include
+Libs: -L${prefix}/lib -lvelodyne_input
+Requires: diagnostic_updater dynamic_reconfigure nodelet roscpp tf velodyne_msgs

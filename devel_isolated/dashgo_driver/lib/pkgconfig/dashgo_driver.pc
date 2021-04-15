@@ -1,0 +1,8 @@
+prefix=/home/gyc/match_ws/devel_isolated/dashgo_driver
+
+Name: dashgo_driver
+Description: Description of dashgo_driver
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
